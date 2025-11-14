@@ -1,0 +1,74 @@
+:root {
+  --bg-dark: #0a0a0a;
+  --bg-light: #ffffff;
+  --text-light: #ffffff;
+  --text-dark: #0a0a0a;
+  --accent-gold: #d4af37;
+  --accent-platinum: #c0c0c0;
+  --accent-burgundy: #4b1e2f;
+  --accent-emerald: #046c4e;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--accent-burgundy);
+  color: var(--accent-gold);
+  text-align: center;
+  padding: 2em;
+  box-shadow: 0 4px 8px rgba(212, 175, 55, 0.3);
+}
+
+section {
+  padding: 2em;
+}
+
+button, .btn {
+  background-color: var(--accent-gold);
+  color: var(--text-dark);
+  border: none;
+  padding: 0.8em 1.5em;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--accent-platinum);
+}
+
+input {
+  padding: 0.8em;
+  border-radius: 6px;
+  border: 1px solid var(--accent-platinum);
+  width: 60%;
+  max-width: 400px;
+}
+
+.volver {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.volver a {
+  background-color: var(--accent-gold);
+  color: var(--text-dark);
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.volver a:hover {
+  background-color: var(--accent-burgundy);
+  color: var(--accent-gold);
+}

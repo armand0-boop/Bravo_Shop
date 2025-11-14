@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.carrito {
+  padding: 2em;
+  max-width: 600px;
+  margin: auto;
+}
+
+.item {
+  border-bottom: 1px solid #ccc;
+  padding: 1em 0;
+}
+
+.total {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+button {
+  padding: 1em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1em;
+}

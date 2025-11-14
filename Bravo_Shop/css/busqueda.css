@@ -1,0 +1,79 @@
+:root {
+  --bg-light: #f9f9f9;
+  --text-dark: #1c1c1c;
+  --primary: #e91e63;
+  --secondary: #004d61;
+  --accent: #fdd835;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--secondary);
+  color: var(--white);
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.resultados {
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.producto {
+  background-color: var(--white);
+  border: 1px solid #ccc;
+  border-left: 5px solid var(--primary);
+  width: 220px;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.producto:hover {
+  transform: scale(1.03);
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #eee;
+  margin-top: 2em;
+}
+
+.volver {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.volver a {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.volver a:hover {
+  background-color: var(--secondary);
+}
